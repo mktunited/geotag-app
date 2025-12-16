@@ -13,7 +13,7 @@ import geocoder  # Using this for everything now (more reliable)
 
 # --- CONFIGURATION ---
 ALLOWED_TYPES = ["image/jpeg", "image/webp"]
-MAX_FILES = 10
+MAX_FILES = 25
 
 # --- HELPER FUNCTIONS ---
 def get_random_point_in_radius(lat, lon, radius_km):
