@@ -96,7 +96,7 @@ st.set_page_config(page_title="GeoTag Pro", page_icon="📍")
 st.title("📍 GeoTag Pro")
 st.markdown("Add GPS coordinates to JPEG/WebP images without re-compressing them.")
 
-uploaded_files = st.file_uploader("1. Upload Images (Max 10)", type=['jpg', 'jpeg', 'webp'], accept_multiple_files=True)
+uploaded_files = st.file_uploader("1. Upload Images (Max 25)", type=['jpg', 'jpeg', 'webp'], accept_multiple_files=True)
 
 if uploaded_files and len(uploaded_files) > MAX_FILES:
     st.error(f"Please select only {MAX_FILES} files maximum.")
